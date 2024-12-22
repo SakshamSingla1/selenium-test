@@ -1,4 +1,4 @@
-package test.selenium;
+package selenium_test;
 
 /**
  * Hello world!

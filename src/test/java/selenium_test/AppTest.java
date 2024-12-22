@@ -1,4 +1,4 @@
-package test.selenium;
+package selenium_test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +12,6 @@ public class AppTest{
 		driver.get("https://testpages.eviltester.com/styled/search");
 		driver.findElement(By.name("q")).clear();
 		driver.findElement(By.name("q")).sendKeys("Saksham Singla");
-		Thread.sleep(10000);
 		driver.close();
 	}
 }
